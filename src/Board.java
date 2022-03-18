@@ -13,6 +13,7 @@ public class Board {
     }
 
     public Boolean WinCheck(char current) {
+        // Horizontal win conditions
         if (squares[1] == current & squares[2] == current & squares[3] == current) { return true; }
         else if (squares[4] == current & squares[5] == current & squares[6] == current) { return true; }
         else if (squares[7] == current & squares[8] == current & squares[9] == current) { return true; }
